@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Seaweed+Script&display=swap');
+
+
+body{
+	margin:0px;
+	/*background-image: url('bg.jpg');*/
+}
+
+
+#nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: black;
+	padding: 2%;
+	transition: all .3s;
+}
+
+#nav:hover{
+	background-color: #000022;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+	transition: all .3s;
+	font-family: "Arsenal SC";
+	font-weight: 800;
+	font-size: 18px;
+}
+
+a:hover{
+	color:gray;
+	font-size: 25px;
+}
+
+#albums{
+	padding: 2%;
+}
+
+#heading h1{
+	text-align: center;
+	font-family: "Libre Caslon Text";
+	font-weight: 900;
+}
+
+#albuminfo h1{
+	font-family: "Arsenal SC";
+}
+
+.album{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 2%;
+}
+
+#albuminfo{
+	margin: 1%;
+}
+
+.album img{
+	box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, .2);
+	border-radius: 15px;
+
+	height: 250px;
+	width: 250px;
+
+	transition: all .3s;
+}
+
+.album img:hover{
+	transform: scale(1.1);
+	box-shadow: 3px 2px 8px 1px rgba(0, 0, 0, .3);
+	border-radius: 50px;
+}
+
+p{
+	font-family: "Seaweed Script";
+	font-size: 1.3em;
+}
+
+#video{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+iframe{
+	height:400px;
+	width:700px;
+}
+
+#content{
+	margin: 3%;
+}
+
+#index{
+	background-color: lightgray;
+}
+
+
+#socialmedia img{
+	height: 30px;
+	weight: 30px;
+	padding: 5px;
+}
+
+#footer{
+	margin-top: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 1%;
+	background-color: orange;
+	color: white;
+	font-size: 1.3em;
+	transition: all .3s;
+}
+
+#footer:hover{
+	background-color: #FFD580;
+	color:black;
+}
+
+#upcoming{
+	text-align: center;
+	height: 500px;
+}
